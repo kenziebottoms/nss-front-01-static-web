@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Individual Exercise #6</title>
+    </head>
+    <body>
+        <main>
+        </main>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                var sumOfSquares = 0;
+                for (var i=0; i<11; i++) {
+                    sumOfSquares += Math.pow(i, 2);
+                }
+                var squareOfSums = 0;
+                for (var i=0; i<11; i++) {
+                    squareOfSums += i;
+                }
+                squareOfSums = Math.pow(squareOfSums, 2);
+                $('main').html((sumOfSquares - squareOfSums));
+            });
+        </script>
+    </body>
+<html>
