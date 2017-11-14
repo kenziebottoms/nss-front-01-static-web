@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Individual Exercise #4</title>
+    </head>
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                var pass = 1;
+                var x = 10;
+                while (pass < 10) {
+                    pass = 1;
+                    for (var i=2; i<11; i++) {
+                        if (x % i == 0) {
+                            pass++;
+                        }
+                    }
+                    x += 10;
+                }
+                if (pass == 10) {
+                    $('body').html('<h1>'+x+'</h1>');
+                }
+            });
+        </script>
+    </body>
+<html>
