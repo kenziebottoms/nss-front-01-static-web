@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+    <head>
+        <title>CSS Selectors Exercise</title>
+        <style type="text/css">
+            nav {
+                border: 1px solid black;
+            }
+            nav ul {
+                list-style-type: none;
+            }
+            nav ul li {
+                display: inline;
+                margin: 0 5px;
+            }
+            .disabled {
+                color: gray;
+            }
+            a.disabled {
+                color: purple;
+            }
+            .active {
+                color: yellow;
+            }
+            .red {
+                color: red;
+            }
+            .blue {
+                color: blue;
+            }
+            .red-bg {
+                background: red;
+            }
+            .blue-bg {
+                background: blue;
+            }
+            .grandparent > h4 {
+                border: 1px solid black;
+                border-radius: 3px;
+            }
+            .promo {
+                font-weight: bold;
+                color: gold;
+            }
+            input[type=text] {
+                height: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+        <article>
+            <section>
+                <div class="month-list">
+                    <ul>
+                        <li>
+                            <a href="#">January</a>
+                            <span class="disabled">My favorite month</span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="active">February</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="disabled">March</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">April</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="promo">
+                                    <span class="disabled">May</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">June</a>
+                        </li>
+                        <li>
+                            <a href="#">July</a>
+                        </li>
+                        <li>
+                            <a href="#">August</a>
+                            <span class="disabled">My least favorite month</span>
+                        </li>
+                        <li>
+                            <a href="#" class="disabled">September</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section>
+                <div class="grandparent">
+                    <div class="parent">
+                        <h4>Child of parent</h4>
+                        <div>
+                            <div class="red">I'm red!</div>
+                            <h4 class="red-bg">I'm red's sister</h4>
+                            <div class="blue">I'm blue!</div>
+                            <h4 class="blue-bg">I'm blue's brother</h4>
+                        </div>
+                    </div>
+                    <h4>Child of grandparent</h4>
+                </div>
+            </section>
+
+        </article>
+        
+        <footer class="padded">
+            
+            <div class="disclaimer">
+                Only one purchase per household.
+                <a href="#">
+                    <span class="footer-link">
+                        <span class="disabled">
+                            Privacy Policy
+                        </span>
+                    </span>
+                </a>
+            </div>
+            
+            <div class="promo">
+                Purchase a book today and receive the eBook for free!
+            </div>
+            
+            <span>
+                <input type="text" name="email" placeholder="Enter your email address">
+                <input type="text" name="name" placeholder="Enter your name">
+                <input type="tel" name="telephone" placeholder="Enter your telephone number">
+            </span>
+            
+        </footer>
+                  
+    </body>
+</html>
