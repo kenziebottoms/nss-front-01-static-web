@@ -1,6 +1,6 @@
 ### Static Web Challenges
 
-#### Individual Challenges
+#### Individual Challenges [[info](SW_INDIVIDUAL_CHALLENGES.md)]
 
 - [Challenge #1](i01.html)
 - [Challenge #2](i02.html)
@@ -11,7 +11,7 @@
 - Challenge #7
 - Challenge #8
 
-#### Group Challenges
+#### Group Challenges [[info](SW_TEAM_CHALLENGES.md)]
 
 - Challenge #1
 - Challenge #2
