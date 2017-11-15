@@ -7,120 +7,154 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">   
+
     <link rel="stylesheet" href="clustermix-bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" data-spy="scroll">
+<body data-spy="scroll" data-target="#mainNav" data-offset="50">
+    <nav id="mainNav" class="nav navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Cluster<strong>mix</strong></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="">
-                            Browse
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#books">Books</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#movies">Movies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#tv">TV Shows</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#playlists">Playlists</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#songs">Songs</a>
-                    </li>
-                </ul>
-            </div>
+            <a class="navbar-brand" href="#">
+                Cluster<strong>mix</strong>
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="">
+                        Browse
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#books">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#movies">Movies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tv">TV Shows</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#playlists">Playlists</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#songs">Songs</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
     <main class="container">
-        <h1 class="text-center">Cluster<strong>mix</strong></h1>
-        <section>
-            <h3 id="books">Books</h3>
-            <div class="row">
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title">Tell the Wolves I'm Home</h4>
-                            <div class="card-subtitle mb-2 text-muted">Carol Rifka Brunt</div>
-                            <div class="card-text">
-                                <p>In this striking literary debut, Carol Rifka Brunt unfolds a moving story of love, grief, and renewal as two lonely people become the unlikeliest of friends and find that sometimes you don't know you've lost someone until you've found them.</p>
-                                <p>1987. There's only one person who has ever truly understood fourteen-year-old June Elbus, and that's her uncle, the renowned painter Finn Weiss. Shy at school and distant from her older sister, June can only be herself in Finn's company; he is her godfather, confidant, and best friend. So when he dies, far too young, of a mysterious illness her mother can barely speak about, June's world is turned upside down. But Finn's death brings a surprise acquaintance into June's life - someone who will help her to heal, and to question what she thinks she knows about Finn, her family, and even her own heart.</p>
-                                <p>At Finn's funeral, June notices a strange man lingering just beyond the crowd. A few days later, she receives a package in the mail. Inside is a beautiful teapot she recognizes from Finn's apartment, and a note from Toby, the stranger, asking for an opportunity to meet. As the two begin to spend time together, June realizes she's not the only one who misses Finn, and if she can bring herself to trust this unexpected friend, he just might be the one she needs the most.</p>
-                                <p>An emotionally charged coming-of-age novel, Tell the Wolves I'm Home is a tender story of love lost and found, an unforgettable portrait of the way compassion can make us whole again.</p>
+        <div class="row">
+            <div class="col-md-8">
+                <section>
+                    <article>
+                        <h3 id="books">Books</h3>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card">
+                                    <img class="card-img-top" src="https://img.buzzfeed.com/buzzfeed-static/static/2013-10/enhanced/webdr02/21/11/enhanced-buzz-orig-12235-1382367973-22.jpg?downsize=715:*&output-format=auto&output-quality=auto" alt="Tell the Wolves I'm Home">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Tell the Wolves I'm Home</h4>
+                                        <div class="card-subtitle mb-2 text-muted">Carol Rifka Brunt</div>
+                                        <div class="card-text">
+                                            <p>In this striking literary debut, Carol Rifka Brunt unfolds a moving story of love, grief, and renewal as two lonely people become the unlikeliest of friends and find that sometimes you don't know you've lost someone until you've found them.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img class="card-img-top" src="https://i.pinimg.com/736x/74/2e/eb/742eebf2755a4f7301cac54383c16f27.jpg" alt="A Brief History of Time">
+                                    <div class="card-body">
+                                        <h4 class="card-title">A Brief History Of Time</h4>
+                                        <div class="card-subtitle mb-2 text-muted">Stephen Hawking</div>
+                                        <div class="card-text">
+                                            <p>In the ten years since its publication in 1988, Stephen Hawking's classic work has become a landmark volume in scientific writing, with more than nine million copies in forty languages sold worldwide.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img class="card-img-top" src="https://c1.staticflickr.com/5/4107/4956467538_729a6a997b_b.jpg" alt="Ender's Game">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Ender's Game</h4>
+                                        <div class="card-subtitle mb-2 text-muted">Orson Scott Card</div>
+                                        <div class="card-text">
+                                            <p>The result of genetic experimentation, Ender may be the military genius Earth desperately needs in a war against an alien enemy seeking to destroy all human life.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title">A Brief History Of Time</h4>
-                            <div class="card-subtitle mb-2 text-muted">Stephen Hawking</div>
-                            <div class="card-text">
-                                <p>In the ten years since its publication in 1988, Stephen Hawking's classic work has become a landmark volume in scientific writing, with more than nine million copies in forty languages sold worldwide. That edition was on the cutting edge of what was then known about the origins and nature of the universe. But the intervening years have seen extraordinary advances in the technology of observing both the micro- and the macrocosmic worlds. These observations have confirmed many of Professor Hawking's theoretical predictions in the first edition of his book, including the recent discoveries of the Cosmic Background Explorer satellite (COBE), which probed back in time to within 300,000 years of the universe's beginning and revealed wrinkles in the fabric of space-time that he had projected. Eager to bring to his original text the new knowledge revealed by these observations, as well as his own recent research, Professor Hawking has prepared a new introduction to the book, written an entirely new chapter on wormholes and time travel, and updated the chapters throughout.</p>
+                    </article>
+                    <article>
+                        <h3 id="movies">Movies</h3>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card">
+                                    <img class="card-img-top" src="http://st-im.kinopoisk.ru/im/poster/2/5/7/kinopoisk.ru-Mad-Max_3A-Fury-Road-2573655.jpg" alt="Mad Max: Fury Road">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Mad Max: Fury Road</h4>
+                                        <div class="card-subtitle mb-2 text-muted">2015</div>
+                                        <div class="card-text">
+                                            <p>A woman rebels against a tyrannical ruler in postapocalyptic Australia in search for her home-land with the help of a group of female prisoners, a psychotic worshipper, and a drifter named Max.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/M/MV5BNDcyZmFjY2YtN2I1OC00MzU3LWIzZGEtZDA5N2VlNDJjYWI3L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SY1000_CR0,0,660,1000_AL_.jpg" alt="The Abyss">
+                                    <div class="card-body">
+                                        <h4 class="card-title">The Thing</h4>
+                                        <div class="card-subtitle mb-2 text-muted">1982</div>
+                                        <div class="card-text">
+                                            <p>A crew in Antarctica finds a neighboring camp destroyed and its crew dead. Whatever killed them is nowhere to be found, unless it's hidden in plain sight.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/M/MV5BYWMzMDNlMDQtMTYyYi00OTM3LTllZDYtYThhMTk5MzNhZTRhXkEyXkFqcGdeQXVyMDUyOTUyNQ@@._V1_SY1000_CR0,0,678,1000_AL_.jpg" alt="The Abyss">
+                                    <div class="card-body">
+                                        <h4 class="card-title">The Abyss</h4>
+                                        <div class="card-subtitle mb-2 text-muted">1989</div>
+                                        <div class="card-text">
+                                            <p>A civilian diving team is enlisted to search for a lost nuclear submarine and face danger while encountering an alien aquatic species.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title">To Kill a Mockingbird</h4>
-                            <div class="card-subtitle mb-2 text-muted">Harper Lee</div>
-                            <div class="card-text">
-                                <p>The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it, To Kill A Mockingbird became both an instant bestseller and a critical success when it was first published in 1960. It went on to win the Pulitzer Prize in 1961 and was later made into an Academy Award-winning film, also a classic.</p>
-                                <p>Compassionate, dramatic, and deeply moving, To Kill A Mockingbird takes readers to the roots of human behavior - to innocence and experience, kindness and cruelty, love and hatred, humor and pathos. Now with over 18 million copies in print and translated into forty languages, this regional story by a young Alabama woman claims universal appeal. Harper Lee always considered her book to be a simple love story. Today it is regarded as a masterpiece of American literature.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    </article>
+                    <article>
+                        <h3 id="tv">TV Shows</h3>
+                    </article>
+                    <article>
+                        <h3 id="playlists">Playlists</h3>
+                    </article>
+                    <article>
+                        <h3 id="songs">Songs</h3>
+                    </article>
+                </section>
             </div>
-        </section>
-        <section>
-            <h3 id="movies">Movies</h3>
-        </section>
-        <section>
-            <h3 id="tv">TV Shows</h3>
-        </section>
-        <section>
-            <h3 id="playlists">Playlists</h3>
-        </section>
-        <section>
-            <h3 id="songs">Songs</h3>
-        </section>
+            <div class="col-md-4">
+                Now Playing
+                <ul>
+                    <li><a href="#">Kenzie</a> is listening to <a href="#">Burnin' Up</a> by <a href="#">Marianas Trench</a>.</li>
+                </ul>
+            </div>
+        </div>
     </main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>8
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
 
 </html>
