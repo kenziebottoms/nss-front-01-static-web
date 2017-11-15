@@ -2,14 +2,24 @@ body {
     font-family: "Roboto", sans-serif;
 }
 main.container {
-    padding-top: 2rem;
+    padding-top: 5rem;
 }
 article {
-    margin: 5rem auto;
+    margin: 0 auto 5rem auto;
 }
 section h3 {
     text-transform: uppercase;
     opacity: .5;
     font-weight: bold;
-    
+}
+#now-playing {
+    font-size: 1.3rem;
+}
+#now-playing ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#now-playing li {
+    margin: 1.5rem 0;
 }
