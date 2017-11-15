@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Counting Coins</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function coinCounter(x) {
+            x = parseInt(x*100);
+            var coinPurse = {};
+            coinPurse['quarters'] = parseInt(x/25);
+            x %= 25;
+            coinPurse['dimes'] = parseInt(x/10);
+            x %= 10;
+            coinPurse['nickels'] = parseInt(x/5);
+            x %= 5;
+            coinPurse['pennies'] = x;
+            return coinPurse;
+        }
+        var coins = coinCounter(.67);
+        console.log(coins);
+    </script>
+</body>
+</html>
