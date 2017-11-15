@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sonnet exercise</title>
+</head>
+<body>
+    <div id="sonnet">
+        How like a winter hath my absence been
+        From thee, the pleasure of the fleeting year!
+        What freezings have I felt, what dark days seen!
+        What old December's bareness everywhere!
+        And yet this time removed was summer's time;
+        The teeming autumn, big with rich increase,
+        Bearing the wanton burden of the prime,
+        Like widow'd wombs after their lords' decease:
+        Yet this abundant issue seemed to me
+        But hope of orphans, and unfathered fruit;
+        For summer and his pleasures wait on thee,
+        And, thou away, the very birds are mute:
+            Or, if they sing, 'tis with so dull a cheer,
+            That leaves look pale, dreading the winter's near.
+    </div>
+    <p id="specs">
+    </p>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>
+        var sonnet = $('#sonnet').html();
+        $('#specs').append("Index of the word 'orphans': "+sonnet.indexOf('orphans')+"<br>");
+        $('#specs').append("Number of characters: "+sonnet.length);
+        sonnet = sonnet.replace("winter", "yuletide");
+        sonnet = sonnet.replace(/ the /gi, " a large ");
+        $('#sonnet').html(sonnet);
+    </script>
+</body>
+</html>
