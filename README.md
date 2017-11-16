@@ -9,6 +9,7 @@ A repo for all completed activities associated with the front-end half of Nashvi
 - [Basic Sass vs SCSS](https://gist.github.com/kenziebottoms/3000619a12dfeee9a45cecda75cff07d), Kenzie Bottoms
 - [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/), Colorzilla
 - [Box Shadow CSS Generator](https://www.cssmatic.com/box-shadow), CSSmatic
+-[CSS3 Text Shadow Generator](https://css3gen.com/text-shadow/), CSS3gen
 
 ## Git
 - [A tutorial introduction to Git](https://git-scm.com/docs/gittutorial)
@@ -25,5 +26,4 @@ A repo for all completed activities associated with the front-end half of Nashvi
 
 ## Miscellaneous
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), Adam Pritchard
-
 - [GitHub Flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
