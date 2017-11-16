@@ -16,12 +16,9 @@ A repo for all completed activities associated with the front-end half of Nashvi
 ## UI
 - [Material Design Icons](https://material.io/icons/), Google
 - [Octicons](https://octicons.github.com/), Github
-- [Entypo icons](http://www.entypo.com/)
-
+- [SVG Social Media Icons](https://codepen.io/ruandre/pen/howFi), Ruandre Janse Van Rensburg
 - [Bootstrap](http://getbootstrap.com/docs/4.0/getting-started/introduction/)
-
   - [Cards](https://getbootstrap.com/docs/4.0/components/card/)
-
   - [Button groups](https://getbootstrap.com/docs/4.0/components/button-group/)
   - [Input groups](https://getbootstrap.com/docs/4.0/components/input-group/)
   - [Slider/carousel](https://getbootstrap.com/docs/4.0/components/carousel/)
