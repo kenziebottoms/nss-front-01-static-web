@@ -28,3 +28,5 @@ A repo for all completed activities associated with the front-end half of Nashvi
 
 ## Miscellaneous
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), Adam Pritchard
+
+- [GitHub Flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
