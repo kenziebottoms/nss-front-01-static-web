@@ -18,7 +18,7 @@ A repo for all completed activities associated with the front-end half of Nashvi
 - [Octicons](https://octicons.github.com/), Github
 - [Entypo icons](http://www.entypo.com/)
 
-#### Bootstrap
+#### [Bootstrap](http://getbootstrap.com/docs/4.0/getting-started/introduction/)
 - [Cards](https://getbootstrap.com/docs/4.0/components/card/)
 - [Button groups](https://getbootstrap.com/docs/4.0/components/button-group/)
 - [Input groups](https://getbootstrap.com/docs/4.0/components/input-group/)
