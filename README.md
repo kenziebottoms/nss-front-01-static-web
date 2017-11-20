@@ -10,20 +10,19 @@ A repo for all completed activities associated with the front-end half of Nashvi
 - [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/), Colorzilla
 - [Box Shadow CSS Generator](https://www.cssmatic.com/box-shadow), CSSmatic
 -[CSS3 Text Shadow Generator](https://css3gen.com/text-shadow/), CSS3gen
-
-## Git
-- [A tutorial introduction to Git](https://git-scm.com/docs/gittutorial)
-
-## UI
-- [Material Design Icons](https://material.io/icons/), Google
-- [Octicons](https://octicons.github.com/), Github
-- [SVG Social Media Icons](https://codepen.io/ruandre/pen/howFi), Ruandre Janse Van Rensburg
 - [Bootstrap](http://getbootstrap.com/docs/4.0/getting-started/introduction/)
   - [Cards](https://getbootstrap.com/docs/4.0/components/card/)
   - [Button groups](https://getbootstrap.com/docs/4.0/components/button-group/)
   - [Input groups](https://getbootstrap.com/docs/4.0/components/input-group/)
   - [Slider/carousel](https://getbootstrap.com/docs/4.0/components/carousel/)
 
+## Fonts/Icons
+- [Google fonts](https://fonts.google.com)
+- [Material Design Icons](https://material.io/icons/), Google
+- [Octicons](https://octicons.github.com/), Github
+- [SVG Social Media Icons](https://codepen.io/ruandre/pen/howFi), Ruandre Janse Van Rensburg
+
 ## Miscellaneous
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), Adam Pritchard
 - [GitHub Flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+- [A tutorial introduction to Git](https://git-scm.com/docs/gittutorial)
