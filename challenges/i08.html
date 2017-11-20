@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="happy"></div>
+    <script>
+        function isHappy(x) {
+            if (x > 1) {
+                var xprime = x;
+                var trail = [];
+                // while x has not been transformed into something already traversed
+                while (trail.indexOf(xprime) == -1) {
+                    trail.push(xprime);
+                    xword = xprime.toString().split("");
+                    xprime = 0;
+                    for (var i=0; i<xword.length; i++) {
+                        xprime += Math.pow(xword[i],2);
+                    }
+                    if (xprime == 1) {
+                        return true;
+                    }
+                }
+                return false;
+            } else {
+                return "Please enter a positive integer.";
+            }
+        }
+        for (var i=0; i<1000; i++) {
+            if (isHappy(i)) {
+                document.getElementById('happy').innerHTML += i + "<br/>";
+            }
+        }
+    </script>
+</body>
+</html>
