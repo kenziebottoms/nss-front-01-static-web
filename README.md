@@ -9,7 +9,7 @@ A repo for all completed activities associated with the front-end half of Nashvi
 - [Basic Sass vs SCSS](https://gist.github.com/kenziebottoms/3000619a12dfeee9a45cecda75cff07d), Kenzie Bottoms
 - [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/), Colorzilla
 - [Box Shadow CSS Generator](https://www.cssmatic.com/box-shadow), CSSmatic
--[CSS3 Text Shadow Generator](https://css3gen.com/text-shadow/), CSS3gen
+- [CSS3 Text Shadow Generator](https://css3gen.com/text-shadow/), CSS3gen
 - [Bootstrap](http://getbootstrap.com/docs/4.0/getting-started/introduction/)
   - [Cards](https://getbootstrap.com/docs/4.0/components/card/)
   - [Button groups](https://getbootstrap.com/docs/4.0/components/button-group/)
