@@ -11,7 +11,7 @@ A repo for all completed activities associated with the front-end half of Nashvi
 
 ## CSS
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), CSS-Tricks
-- [Basic Sass vs SCSS](https://gist.github.com/kenziebottoms/3000619a12dfeee9a45cecda75cff07d), Kenzie Bottoms
+- [Basic Sass vs. SCSS](https://gist.github.com/kenziebottoms/3000619a12dfeee9a45cecda75cff07d), Kenzie Bottoms
 - [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/), Colorzilla
 - [Box Shadow CSS Generator](https://www.cssmatic.com/box-shadow), CSSmatic
 - [CSS3 Text Shadow Generator](https://css3gen.com/text-shadow/), CSS3gen
@@ -28,7 +28,10 @@ A repo for all completed activities associated with the front-end half of Nashvi
 - [Octicons](https://octicons.github.com/), Github
 - [SVG Social Media Icons](https://codepen.io/ruandre/pen/howFi), Ruandre Janse Van Rensburg
 
+## Github
+- [Git cheetsheet](https://gist.github.com/kenziebottoms/7c654bf92967a860d3f4659233704974), Kenzie Bottoms
+- [GitHub-Flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
+- [A tutorial introduction to Git](https://git-scm.com/docs/gittutorial)
+
 ## Miscellaneous
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), Adam Pritchard
-- [GitHub Flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
-- [A tutorial introduction to Git](https://git-scm.com/docs/gittutorial)
