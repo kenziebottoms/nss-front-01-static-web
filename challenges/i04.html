@@ -4,6 +4,7 @@
         <title>Individual Exercise #4</title>
     </head>
     <body>
+        <div id="answer"></div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function() {
@@ -12,16 +13,21 @@
                 while (pass < 10) {
                     pass = 1;
                     for (var i=2; i<11; i++) {
-                        if (x % i == 0) {
+                        if (isDivisible(x, i)) {
                             pass++;
                         }
                     }
                     x += 10;
                 }
                 if (pass == 10) {
-                    $('body').html('<h1>'+x+'</h1>');
+                    document.getElementById('answer').innerHTML = x;
                 }
             });
+
+            // is x divisible by n? (y/n)
+            function isDivisible(x,n) {
+                return (x % n == 0);
+            }
         </script>
     </body>
 <html>

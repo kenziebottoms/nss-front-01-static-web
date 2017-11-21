@@ -9,17 +9,26 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function() {
+                $('main').html((sumOfSquares(10) - squareOfSums(10)));
+            });
+
+            // calculates the sum of the squares of numbers 1 thru x
+            function sumOfSquares(x) {
                 var sumOfSquares = 0;
-                for (var i=0; i<11; i++) {
+                for (var i=1; i<=x; i++) {
                     sumOfSquares += Math.pow(i, 2);
                 }
-                var squareOfSums = 0;
-                for (var i=0; i<11; i++) {
-                    squareOfSums += i;
+                return sumOfSquares;
+            }
+
+            // calculates the square of the sum of numbers 1 thru x
+            function squareOfSums(x) {
+                var sum = 0;
+                for (var i=1; i<=x; i++) {
+                    sum += i;
                 }
-                squareOfSums = Math.pow(squareOfSums, 2);
-                $('main').html((sumOfSquares - squareOfSums));
-            });
+                return Math.pow(sum, 2);
+            }
         </script>
     </body>
 <html>
