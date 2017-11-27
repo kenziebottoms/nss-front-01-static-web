@@ -9,7 +9,7 @@
 - [Challenge #5](i05.html)
 - [Challenge #6](i07.html)
 - Challenge #7
-- Challenge #8
+- [Challenge #8](i08.html)
 
 #### Group Challenges [[info](SW_TEAM_CHALLENGES.md)]
 
