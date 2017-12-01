@@ -7,4 +7,4 @@
 
 ## VS Code
 
-- [Ubuntu keyboard shortcuts](03-vscode-shortcuts.md)
+- [Ubuntu keyboard shortcuts](https://gist.github.com/kenziebottoms/69277b6353bba30601dee11e7b371659)
