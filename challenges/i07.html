@@ -10,6 +10,7 @@
             margin: auto;
             background: #2f4f4f;
             text-align: center;
+            overflow-y: hidden;
         }
         .white {
             color: #FFFAFA;
@@ -112,37 +113,57 @@
         #sky {
             display: flex;
             justify-content: space-between;
+            height: 100rem;
+            animation: bob 5s infinite;
         }
         .star-container {
             display: block;
             transform:scale(.5,.5);
         }
         .star-container:nth-child(1) {
-            padding-top: 10%;
+            align-self: flex-start;
+            margin-top: 3rem;
         }
         .star-container:nth-child(2) {
-            margin-top: 40%;
+            align-self: center;
+            margin-top: 35rem;
         }
         .star-container:nth-child(3) {
-            margin-top: 30%;
+            align-self: center;
         }
         .star-container:nth-child(4) {
-            margin-top: 70%;
+            align-self: flex-end;
         }
         .star-container:nth-child(5) {
-            margin-top: -10%;
+            align-self: flex-start;
+            margin-top: 10rem;
         }
         .star-container:nth-child(6) {
-            margin-top: -20%;
+            align-self: center;
+            margin-top: 50rem;
         }
         .star-container:nth-child(7) {
-            margin-top: 40%;
+            align-self: center;
         }
         .star-container:nth-child(8) {
-            margin-top: 0%;
+            align-self: flex-start;
+            margin-top: 15rem;
         }
         .star-container:nth-child(9) {
-            margin-top: 60%;
+            align-self: flex-end;
+        }
+        .star-container:nth-child(10) {
+            align-self: flex-start;
+        }
+        .star-container:nth-child(11) {
+            align-self: center;
+            margin-top: 15rem;
+        }
+        .star-container:nth-child(12) {
+            align-self: center;
+        }
+        .star-container:nth-child(13) {
+            align-self: flex-end;
         }
         #boat {
             position: fixed;
@@ -152,7 +173,11 @@
             margin-top: -90px;
         }
 
-        
+        @keyframes bob {
+            0%   {margin-top: 0;}
+            50%  {margin-top: -50rem;}
+            100%   {margin-top: 0;}
+        }
     </style>
 </head>
 <body>
@@ -175,6 +200,18 @@
         </tr>
     </table> -->
     <div id="sky">
+        <div class="star-container">
+            <div class="star white"></div>
+        </div>
+        <div class="star-container">
+            <div class="star white"></div>
+        </div>
+        <div class="star-container">
+            <div class="star white"></div>
+        </div>
+        <div class="star-container">
+            <div class="star white"></div>
+        </div>
         <div class="star-container">
             <div class="star white"></div>
         </div>
