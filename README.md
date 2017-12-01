@@ -1,6 +1,6 @@
 # The Static Web Milestone
 
-A repo for all completed activities associated with the front-end half of Nashville Software School, based on [this repo](https://github.com/nashville-software-school/front-end-milestones).
+A repo for all completed activities associated with the front-end half of Nashville Software School, based on [this repo](https://github.com/nashville-software-school/front-end-milestones/tree/master/1-the-static-web).
 
 - [Challenges](challenges)
 - [Learning Materials](learning-materials)
