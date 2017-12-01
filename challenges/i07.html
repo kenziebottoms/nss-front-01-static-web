@@ -72,9 +72,6 @@
             -o-transform:      rotate(-70deg);
             content: '';
         }
-        #boat {
-            display: inline-block;
-        }
         .trapezoid {
             /* height */
             border-top: 70px solid;
@@ -111,10 +108,55 @@
         /* trapezoid, trangle-up, triangle-down, star
         taken and modified from CSS-Tricks
         https://css-tricks.com/examples/ShapesOfCSS/ */
+
+        #sky {
+            display: flex;
+            justify-content: space-between;
+        }
+        .star-container {
+            display: block;
+            transform:scale(.5,.5);
+        }
+        .star-container:nth-child(1) {
+            padding-top: 10%;
+        }
+        .star-container:nth-child(2) {
+            margin-top: 40%;
+        }
+        .star-container:nth-child(3) {
+            margin-top: 30%;
+        }
+        .star-container:nth-child(4) {
+            margin-top: 70%;
+        }
+        .star-container:nth-child(5) {
+            margin-top: -10%;
+        }
+        .star-container:nth-child(6) {
+            margin-top: -20%;
+        }
+        .star-container:nth-child(7) {
+            margin-top: 40%;
+        }
+        .star-container:nth-child(8) {
+            margin-top: 0%;
+        }
+        .star-container:nth-child(9) {
+            margin-top: 60%;
+        }
+        #boat {
+            position: fixed;
+            left: 50%;
+            margin-left: -100px;
+            top: 40%;
+            margin-top: -90px;
+        }
+
+        
     </style>
 </head>
 <body>
-    <table>
+    <!-- <table>
         <tr>
             <td>Blue</td>
             <td>#2F4F4F</td>
@@ -131,8 +173,36 @@
             <td>Orange</td>
             <td>#FFA500</td>
         </tr>
-    </table>
-    <div class="star white"></div>
+    </table> -->
+    <div id="sky">
+        <div class="star-container">
+            <div class="star white"></div>
+        </div>
+        <div class="star-container">
+            <div class="star white"></div>
+        </div>
+        <div class="star-container">
+            <div class="star white"></div>
+        </div>
+        <div class="star-container">
+            <div class="star white"></div>
+        </div>
+        <div class="star-container">
+            <div class="star white"></div>
+        </div>
+        <div class="star-container">
+            <div class="star white"></div>
+        </div>
+        <div class="star-container">
+            <div class="star white"></div>
+        </div>
+        <div class="star-container">
+            <div class="star white"></div>
+        </div>
+        <div class="star-container">
+            <div class="star white"></div>
+        </div>
+    </div>
     <div id="boat">
         <div class="triangle-up red"></div>   
         <div class="trapezoid red"></div>  
