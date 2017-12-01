@@ -21,6 +21,7 @@ A repo for all completed activities associated with the front-end half of Nashvi
   - [Input groups](https://getbootstrap.com/docs/4.0/components/input-group/)
   - [Slider/carousel](https://getbootstrap.com/docs/4.0/components/carousel/)
 - [Can I use...](https://caniuse.com/), [@fyrd](https://twitter.com/Fyrd)
+- [CSS Shapes](https://css-tricks.com/examples/ShapesOfCSS/), CSS-Tricks
 
 ## Fonts/Icons
 - [Google fonts](https://fonts.google.com)

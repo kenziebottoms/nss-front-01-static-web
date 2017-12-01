@@ -9,10 +9,135 @@
         body {
             margin: auto;
             background: #2f4f4f;
+            text-align: center;
         }
+        .white {
+            color: #FFFAFA;
+            border-color: #FFFAFA;
+        }
+        .red {
+            color: #B22222;
+            border-color: #B22222;
+        }
+        .orange {
+            color: #FFA500;
+            border-color: #FFA500;
+        }
+        .star {
+            margin: 25px 0;
+            position: relative;
+            display: block;
+            color: #FFFAFA;
+            width: 0px;
+            height: 0px;
+            border-right:  50px solid transparent;
+            border-bottom: 35px  solid;
+            border-left:   50px solid transparent;
+            -moz-transform:    rotate(35deg);
+            -webkit-transform: rotate(35deg);
+            -ms-transform:     rotate(35deg);
+            -o-transform:      rotate(35deg);
+        }
+        .star:before {
+            border-bottom: 40px solid;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            position: absolute;
+            height: 0;
+            width: 0;
+            top: -22.5px;
+            left: -32.5px;
+            display: block;
+            content: '';
+            -webkit-transform: rotate(-35deg);
+            -moz-transform:    rotate(-35deg);
+            -ms-transform:     rotate(-35deg);
+            -o-transform:      rotate(-35deg);
+
+        }
+        .star:after {
+            position: absolute;
+            display: block;
+            color: #FFFAFA;
+            top: 1.5px;
+            left: -52.5px;
+            width: 0px;
+            height: 0px;
+            border-right: 50px solid transparent;
+            border-bottom: 35px solid #FFFAFA;
+            border-left: 50px solid transparent;
+            -webkit-transform: rotate(-70deg);
+            -moz-transform:    rotate(-70deg);
+            -ms-transform:     rotate(-70deg);
+            -o-transform:      rotate(-70deg);
+            content: '';
+        }
+        #boat {
+            display: inline-block;
+        }
+        .trapezoid {
+            /* height */
+            border-top: 70px solid;
+            /* wing width */
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            height: 0;
+            /* core width */
+            width: 120px;
+        }
+        .triangle-up {
+            margin: auto;
+            width: 0;
+            height: 0;
+            /* width */
+            border-left: 30px solid transparent;
+            border-right: 30px solid transparent;
+            /* height */
+            border-bottom: 70px solid;
+        }
+        .triangle-down {
+            width: 0;
+            height: 0;
+            /* width */
+            border-left: 18px solid transparent;
+            border-right: 18px solid transparent;
+            /* height */
+            border-top: 35px solid;
+            display: inline-block;
+        }
+        #right {
+            margin-left: 43px;
+        }
+        /* trapezoid, trangle-up, triangle-down, star
+        taken and modified from CSS-Tricks
+        https://css-tricks.com/examples/ShapesOfCSS/ */
     </style>
 </head>
 <body>
-
+    <table>
+        <tr>
+            <td>Blue</td>
+            <td>#2F4F4F</td>
+        </tr>
+        <tr>
+            <td>White</td>
+            <td>#FFFAFA</td>
+        </tr>
+        <tr>
+            <td>Red</td>
+            <td>#B22222</td>
+        </tr>
+        <tr>
+            <td>Orange</td>
+            <td>#FFA500</td>
+        </tr>
+    </table>
+    <div class="star white"></div>
+    <div id="boat">
+        <div class="triangle-up red"></div>   
+        <div class="trapezoid red"></div>  
+        <div id="left" class="triangle-down orange"></div>
+        <div id="right" class="triangle-down orange"></div>
+    </div>
 </body>
 </html>
