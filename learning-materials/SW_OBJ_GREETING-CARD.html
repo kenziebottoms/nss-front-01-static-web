@@ -15,20 +15,20 @@
                 this.age = age;
                 this.message = message;
             },
-            print: function() {
-                return `<h2>Happy Birthday, ${this.recipient}!</h2>`;
+            excerpt: function() {
+                return `<h2>Happy ${this.age}th birthday, ${this.recipient}</h2>`;
             },
             frontMessage: function() {
                 return `<div class="card">
                     <h1>Happy Birthday!</h1>
-                    <h2>Happy ${this.age}th birthday, ${this.recipient}</h2>
+                    ${this.excerpt()}
                     <p>${this.message}</p>
                 </div>`;
             }
         }
         let legalCard = Object.create(CardMaker);
         legalCard.init("Adrian", 21, "You're legal!");
-        document.getElementById("legal").innerHTML = legalCard.print();
+        document.getElementById("legal").innerHTML = legalCard.frontMessage();
     </script>
 </body>
 </html>
