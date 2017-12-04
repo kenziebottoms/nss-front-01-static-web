@@ -7,14 +7,28 @@
     <title>Greeting Card Maker</title>
 </head>
 <body>
+    <div id="legal"></div>
     <script>
         const CardMaker = {
-            makeFrontMessage: function(string) {
-                return `<h2>${string}</h2>`
+            init: function(recipient, age, message) {
+                this.recipient = recipient;
+                this.age = age;
+                this.message = message;
+            },
+            print: function() {
+                return `<h2>Happy Birthday, ${this.recipient}!</h2>`;
+            },
+            frontMessage: function() {
+                return `<div class="card">
+                    <h1>Happy Birthday!</h1>
+                    <h2>Happy ${this.age}th birthday, ${this.recipient}</h2>
+                    <p>${this.message}</p>
+                </div>`;
             }
         }
-        //Refactor this to link this object to cardMaker
-        const BirthdayCard = Object.create();
+        let legalCard = Object.create(CardMaker);
+        legalCard.init("Adrian", 21, "You're legal!");
+        document.getElementById("legal").innerHTML = legalCard.print();
     </script>
 </body>
 </html>
