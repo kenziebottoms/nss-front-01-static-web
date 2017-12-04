@@ -62,3 +62,11 @@ Collapses `i[0]` and `i[1]` according to the passed function.
 ```Javascript
 let sum = nums.reduce((x, y) => x+y);
 ```
+
+### `sort`
+
+Sort works out of the box for strings, but numbers have to be sorted explicitly with this function.
+
+```Javascript
+let ordered = nums.sort((a,b) => a-b);
+```
