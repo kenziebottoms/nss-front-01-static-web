@@ -29,11 +29,12 @@ A repo for all completed activities associated with the front-end half of Nashvi
 - [Octicons](https://octicons.github.com/), Github
 - [SVG Social Media Icons](https://codepen.io/ruandre/pen/howFi), Ruandre Janse Van Rensburg
 
-## Github
+## GitHub
 - [Git cheetsheet](https://gist.github.com/kenziebottoms/7c654bf92967a860d3f4659233704974), Kenzie Bottoms
 - [GitHub-Flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 - [A tutorial introduction to Git](https://git-scm.com/docs/gittutorial)
 - [.gitignore patterns](https://www.atlassian.com/git/tutorials/gitignore), Atlassian
+- [GitHub Markdown Emojis](https://gist.github.com/rxaviers/7360908), Rafael Xavier de Souza
 
 ## Miscellaneous
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), Adam Pritchard
