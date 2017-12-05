@@ -33,9 +33,10 @@ A repo for all completed activities associated with the front-end half of Nashvi
 - [Git cheetsheet](https://gist.github.com/kenziebottoms/7c654bf92967a860d3f4659233704974), Kenzie Bottoms
 - [GitHub-Flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 - [A tutorial introduction to Git](https://git-scm.com/docs/gittutorial)
+- [.gitignore patterns](https://www.atlassian.com/git/tutorials/gitignore), Atlassian
 
 ## Miscellaneous
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), Adam Pritchard
 - [`oh-my-zsh` Cheatsheet](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet)
-- [Regex testing](https://regexr.com/)
+- [Regex testing](https://regexr.com/), [@gskinner](https://github.com/gskinner/)
 - [Ubuntu keyboard shortcuts](https://gist.github.com/kenziebottoms/69277b6353bba30601dee11e7b371659), Kenzie Bottoms
