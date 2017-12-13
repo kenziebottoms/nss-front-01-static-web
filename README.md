@@ -40,4 +40,4 @@ A repo for all completed activities associated with the front-end half of Nashvi
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), Adam Pritchard
 - [`oh-my-zsh` Cheatsheet](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet)
 - [Regex testing](https://regexr.com/), [Grant Skinner](https://github.com/gskinner/)
-- [Ubuntu keyboard shortcuts](https://gist.github.com/kenziebottoms/69277b6353bba30601dee11e7b371659), Kenzie Bottoms
+- [VSCode Ubuntu keyboard shortcuts](https://gist.github.com/kenziebottoms/69277b6353bba30601dee11e7b371659), Kenzie Bottoms
